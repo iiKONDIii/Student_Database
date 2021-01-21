@@ -13,7 +13,8 @@ public class StudentDatabaseApp {
             Student student = new Student();
             student.setCourse();
             student.makePayments();
-            System.out.println(students[n].toString());
+            String strvalue = Integer.toString(numOfStudents);
+            System.out.println(strvalue+" : Student(s) have/has enrolled");
         }
 /*
         for (int n = 0; n <numOfStudents; n++){
